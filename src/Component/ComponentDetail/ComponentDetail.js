@@ -11,6 +11,7 @@ class ComponentDetail extends Component {
                 <ListItem
                     title={item.userName}
                     subtitle={item.time}
+                    titleStyle={{fontWeight: 'bold' }}
                     leftAvatar={{
                         source: { uri: item.profile }
                     }}
@@ -24,6 +25,7 @@ class ComponentDetail extends Component {
             <View>
                 <ListItem
                     title={item.userName}
+                    titleStyle={{fontWeight: 'bold' }}
                     subtitle={item.time}
                     leftAvatar={{
                         source: { uri: item.profile }

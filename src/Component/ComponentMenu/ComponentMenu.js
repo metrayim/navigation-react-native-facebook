@@ -342,6 +342,7 @@ export default class ComponentMenu extends Component {
                         
                         title={item.userName}
                         subtitle={item.time}
+                        titleStyle={{fontWeight: 'bold' }}
                         leftAvatar={{ source: { uri: item.profile } }}
                         bottomDivider
                         chevronivider
